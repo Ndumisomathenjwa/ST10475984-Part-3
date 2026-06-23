@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="VRONLAIR, fashion brand, streetwear, Durban clothing, hoodies, t-shirts, urban fashion">
+    <meta name="author" content="Ndumiso Mathenjwa">
+    <title>About VRONLAIR - Our Fashion Journey</title>
+    <meta name="description" content="Learn about VRONLAIR, a Durban-based fashion brand dedicated to bringing you the latest trends in men’s and women’s apparel.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+      <h1>About VRONLAIR</h1>
+      <img src="Images/about us.png" alt="VRONLAIR fashion brand and streetwear clothing collection">
+    </header>
+
+    <nav>
+    <div class="hamburger" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+    <!-- ABOUT US CONTENT -->
+    <main>
+
+        <h2>About Us</h2>
+
+        <p>
+            Vronlair was born from a passion for bold self-expression. Starting with simple printed hoodies and T-shirts sold to friends, we grew into a fashion movement. Today, Vronlair fuses urban street style with effortless comfort, empowering everyone to wear their confidence. Our mission is to create iconic pieces that help you stand out, be yourself, and own your story.
+        </p>
+
+        <h3>Our Mission</h3>
+        <p>
+            Our mission is to create stylish and comfortable clothing that allows people to express their personality and confidence.
+        </p>
+
+        <h3>Our Vision</h3>
+        <p>
+            Our vision is to grow into a well-known clothing brand recognized for its unique streetwear style, quality, and strong connection with fashion lovers.
+        </p>
+
+        <h3>Our Audience</h3>
+        <p>
+            Vronlair is designed for young people who enjoy urban fashion, including hoodies, baggy jeans, oversized T-shirts, and fitted caps. At the same time, we offer simple, stylish pieces for anyone who values comfort and modern fashion.
+        </p>
+
+    </main>
+
+    <!-- NAVIGATION BACK -->
+    <footer>
+        <p id="date"></p>
+        <p><a href="index.html">Back to Home</a></p>
+    </footer>
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
+
+const today = new Date();
+document.getElementById("date").innerHTML =
+"Today's Date: " + today.toDateString();
+
+ type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"VRONLAIR",
+  "description":"Fashion brand specializing in streetwear, hoodies, t-shirts and urban apparel.",
+  "address":{
+    "@type":"PostalAddress",
+    "addressLocality":"Durban",
+    "addressCountry":"South Africa"
+  }
+}
+</script>
+</body>
+</html>
