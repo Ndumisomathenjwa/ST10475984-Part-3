@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="VRONLAIR is a fashion brand offering the latest trends in high-quality apparel, based in Durban, South Africa. Explore men's and women's fashion and stay ahead in style." />
+    <meta name="keywords" content="fashion, clothing, Durban, apparel, men’s fashion, women’s fashion, VRONLAIR" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ndumiso Mathenjwa">
+   <title>VRONLAIR | Fashion Clothing & Apparel in Durban</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>VRONLAIR</h1>
+        <video width="100%" height="auto" autoplay muted loop>
+            <source src="Images/intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </header>
+
+    <nav>
+    <div class="hamburger" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+    <!-- Search and Icons -->
+    <div>
+        <input type="text" placeholder="Search...">
+        <div>
+            ❤️ (Favorites Icon)
+            🛒 (Cart Icon)
+        </div>
+    </div>
+
+
+    <!-- Sign-In Section -->
+    <section>
+        <h2>Sign In</h2>
+        <form>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+            <label>Password:</label>
+            <input type="password" placeholder="Enter your password">
+            <button type="submit">Sign In</button>
+        </form>
+    </section>
+
+    <!-- Products Dropdown -->
+    <section>
+        <h2>Products</h2>
+        <select>
+            <option value="">Select Category</option>
+            <option value="men">Men’s Products</option>
+            <option value="women">Women’s Products</option>
+            <option value="new">New Products</option>
+        </select>
+    </section>
+   
+   <section class="slideshow-container">
+    <button class="arrow left" onclick="plusSlides(-1)">❮</button>
+    <button class="arrow right" onclick="plusSlides(1)">❯</button>
+    <div class="dots"></div>
+    <div class="slide fade">
+        <video width="100%" autoplay muted loop>
+            <source src="images/intro.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="slide fade">
+        <img src="images/uct prod1.png" alt="VRONLAIR men's fashion t-shirt">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/product 2.png" alt="VRONLAIR premium clothing collection">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/product 3.png" alt="VRONLAIR modern streetwear apparel">
+    </div>
+    
+</section>
+
+    <!-- About Us and Contact Us Links -->
+    <section>
+        <h2>About Us</h2>
+        <p>We are a fashion brand dedicated to bringing you the latest trends and high-quality apparel.</p>
+        
+        <h2>Contact Us</h2>
+        <p>Visit us at 123 Fashion Street, Durban, South Africa.</p>
+        <div>
+            📞 +27 123 456 7890
+        </div>
+        <div>
+            📧 info@vronlair.com
+        </div>
+        <!-- Buttons to pages -->
+        <p>
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact Us</a> |
+            <a href="Product.html">Our Product</a>  
+        </p>
+        <div>
+            🌐 Twitter  📸 Instagram  👍 Facebook
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section>
+        <h2>Subscribe to Our Newsletter</h2>
+        <form>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p id="date"></p>
+        <p>&copy; 2026 VRONLAIR. All rights reserved.</p>
+    </footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "VRONLAIR Men's T-Shirts",
+  "image": "images/uct prod1.png",
+  "description": "Stylish men's T-shirts made from premium materials, perfect for any season.",
+  "brand": {
+    "@type": "Brand",
+    "name": "VRONLAIR"
+  },
+  "sku": "VR-TSHIRT-001"
+}
+</script>
+<script src="javascript/script.js"></script>
+</body>
+</html>

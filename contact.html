@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ndumiso Mathenjwa">
+    <title>Contact Us - VRONLAIR</title>
+    <meta name="description" content="Get in touch with VRONLAIR. Visit us at 123 Fashion Street, Durban, or contact us by phone or email for inquiries.">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+    <div class="hamburger" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+    <!-- CONTACT CONTENT -->
+    <main>
+
+        <p>If you have any questions or need more information, we’d love to hear from you.</p>
+        
+        <h3>Visit Us</h3>
+        <p>123 Fashion Street, Durban, South Africa</p>
+
+        <h3>Call Us</h3>
+        <p>Phone: +27 123 456 7890</p>
+
+        <h3>Email Us</h3>
+        <p>info@vronlair.com</p>
+
+        <h3>Send Us a Message</h3>
+        <form onsubmit="return validateForm()">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Your message"></textarea><br>
+            <p id="errorMessage"></p>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+
+    <!-- SOCIAL MEDIA -->
+    <footer>
+        <p id="date"></p>
+        <p><a href="index.html">Back to Home</a></p>
+        <p>Follow us on:</p>
+        <p>🐦 Twitter | 📸 Instagram | 👍 Facebook</p>
+    </footer>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Organization",
+ "name":"VRONLAIR",
+ "email":"info@vronlair.com",
+ "telephone":"+27 123 456 7890",
+ "address":{
+   "@type":"PostalAddress",
+   "addressLocality":"Durban",
+   "addressCountry":"South Africa"
+ }
+}
+</script>
+  <script src="javascript/script.js"></script>
+</body>
+</html>

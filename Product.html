@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRONLAIR</title>
+    <meta name="description" content="Explore VRONLAIR's exclusive collection of men's and women's fashion. Discover stylish streetwear, hoodies, t-shirts and premium apparel.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>VRONLAIR</h1>
+    <p>Explore Our Collection</p>
+</header>
+
+<nav>
+    <div class="hamburger" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+
+<!-- MAIN CONTENT -->
+<main>
+
+    <h2>Our Products</h2>
+    <input type="text" id="productSearch" placeholder="Search products...">
+    <p>
+        Discover the latest Vronlair pieces designed for comfort, confidence, 
+        and bold streetwear expression.
+    </p>
+
+    <!-- NEW PRODUCTS -->
+    <section>
+        <h3>New Arrivals</h3>
+        <div class="product-card"></div>
+        <img src="images/new1.jpg" alt="VRONLAIR Signature T-Shirt" width="250">
+        <p>Vronlair Signature Tee</p>
+        <p>Price: R299</p>
+      </div>
+
+        <div class="product-card">
+        <img src="images/new2.jpg" alt="VRONLAIR Urban Hoodie" width="250">
+        <p>Urban Hoodie Drop</p>
+        <p>Price: R599</p>
+       </div>
+
+        <div class="product-card">
+       <img src="images/new3.jpg" alt="VRONLAIR Baggy Street Jeans" width="250">
+        <p>Baggy Street Jeans</p>
+        <p>Price: R799</p>
+        </div>
+    </section>
+
+    <!-- MEN PRODUCTS -->
+    <section>
+        <h3>Men’s Collection</h3>
+        
+        <div class="product-card">
+        <img src="images/men1.jpg" alt="VRONLAIR Oversized Men's T-Shirt" width="250">
+        <p>Oversized T-Shirt</p>
+        <p>Price: R349</p>
+         </div>
+
+        <div class="product-card">
+        <img src="images/men2.jpg" alt="VRONLAIR Heavyweight Hoodie" width="250">
+        <p>Heavyweight Hoodie</p>
+        <p>Price: R649</p>
+        </div>
+
+        <div class="product-card">
+        <img src="images/men3.jpg" alt="VRONLAIR Loose Fit Jeans" width="250">
+        <p>Loose Fit Jeans</p>
+        <p>Price: R850</p>
+        </div>
+    </section>
+
+    <!-- WOMEN PRODUCTS -->
+    <section>
+        <h3>Women’s Collection</h3>
+         
+        <div class="product-card">
+        <img src="images/women1.jpg" alt="VRONLAIR Women's Crop Tee" width="250">
+        <p>Fitted Crop Tee</p>
+        <p>Price: R279</p>
+        </div>
+        
+        <div class="product-card">
+       <img src="images/women2.jpg" alt="VRONLAIR Women's Stylish Hoodie" width="250">
+        <p>Stylish Hoodie</p>
+        <p>Price: R599</p>
+        </div>
+        
+        <div class="product-card">
+        <img src="images/women3.jpg" alt="VRONLAIR Women's Relaxed Jeans" width="250">
+        <p>Relaxed Jeans</p>
+        <p>Price: R799</p>
+        </div>
+        
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+
+    <h3>About VRONLAIR</h3>
+    <p>
+        Vronlair is a fashion brand built on self-expression, combining 
+        modern streetwear with comfort and confidence.
+    </p>
+
+    <h3>Contact</h3>
+    <p>📍 Durban, South Africa</p>
+    <p>📞 +27 123 456 7890</p>
+    <p>📧 info@vronlair.com</p>
+
+    <p>🐦 Twitter | 📸 Instagram | 👍 Facebook</p>
+
+    <p>&copy; 2026 VRONLAIR</p>
+
+</footer>
+
+<script>type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Product",
+ "name":"VRONLAIR Signature Tee",
+ "description":"Premium streetwear T-shirt by VRONLAIR",
+ "brand":{
+   "@type":"Brand",
+   "name":"VRONLAIR"
+ },
+ "offers":{
+   "@type":"Offer",
+   "price":"299",
+   "priceCurrency":"ZAR"
+ }
+}
+</script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
